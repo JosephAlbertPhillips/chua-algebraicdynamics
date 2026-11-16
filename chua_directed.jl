@@ -88,5 +88,5 @@ pb = plot(v1, v2; style..., xlabel="v₁ (V)", ylabel="v₂ (V)")
 l = @layout [a{0.55w} grid(2, 1)]          # 3D takes 55% of the width; right side split in two
 fig = plot(p3, pa, pb; layout=l, size=(1200, 600), margin=5Plots.mm,
            plot_title="Chua's circuit: double scroll", dpi=300)
-savefig(fig, "directed_double_scroll.png")
+#savefig(fig, "directed_double_scroll.png")
 
