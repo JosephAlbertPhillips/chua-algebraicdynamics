@@ -27,11 +27,11 @@ $$
 
 The variables are the voltages of the capacitors and the current of the inductor.
 
-To implement the nonlinear diode and circuit components, I used the Chua's circuit devoloped by Kennedy.
+To implement the nonlinear diode and circuit components, I used the Chua's circuit developed by Kennedy.
 
 ## How I did the Compositional Modeling 
 
-To solve the equations I expressed the dynamical system as a composition of systems, allowing me to solve them with the AlgebraicDynamics package. There are two different compositional models I did, the directed model and the undirected one. For the directed model, I took the three different states and used the dynamical equations to inform how the input/outputwise are wired. The compositional model ends up being a composition of three continuous machines, where each machine represents an individual equation. 
+To solve the equations I expressed the dynamical system as a composition of systems, allowing me to solve them with the AlgebraicDynamics package. There are two different compositional models I did, the directed model and the undirected one. For the directed model, I took the three different states and used the dynamical equations to inform how the input and outputs are wired. The compositional model ends up being a composition of three continuous machines, where each machine represents an individual equation. 
 
 ![Directed Compositional Model Diagram](Images/DirectedCompModel.png)
 
